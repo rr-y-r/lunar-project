@@ -23,4 +23,12 @@ class C_Admin extends CI_Controller {
             'message' => $message
         )); 
     }
+    
+    private function createItem(){
+        //needs algorithm to create file such as title, description, etc.
+    }
+    
+    private function manageItem(){
+        //module for edit, delete, etc.
+    }
 }
