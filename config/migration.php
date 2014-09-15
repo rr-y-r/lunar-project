@@ -8,7 +8,7 @@
 | whenever you intend to do a schema migration.
 |
 */
-$config['migration_enabled'] = true;
+$config['migration_enabled'] = TRUE;
 
 
 /*
@@ -21,13 +21,13 @@ $config['migration_enabled'] = true;
 | be upgraded / downgraded to.
 |
 */
-$config['migration_version'] = 0;
+$config['migration_version'] = 3;
 
 
 /*
 |--------------------------------------------------------------------------
 | Migrations Path
-|--------------------------------------------------------------------------
+|-------------------------------------------------------------------------
 |
 | Path to your migrations folder.
 | Typically, it will be within your application path.

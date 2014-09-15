@@ -7,7 +7,6 @@ class Migration extends C_Admin{
     
      public function index(){
          $this->load->library('migration');
-         
          if(! $this->migration->current()){
              show_error($this->migration->error_string());
          }
